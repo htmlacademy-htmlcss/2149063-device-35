@@ -4,24 +4,21 @@
     <meta charset="utf-8">
     <title>Device</title>
   </head>
+  <body>
   <header class="page-header">
     <h1> <span class="visually-hidden">
        Device
     </span>
   </h1>
-  <nav class="navigation">
-    <ul class="navigation-user">
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">
-          <span class="visually-hidden">
-             Найти</span>
-            </a>
-
-      </li>
+    <form action="https://echo.htmlacademy.ru/">
+      <input type="search" value="Текст поиска"/>
+      <input type="submit" value="Найти"/>
+    </form>
+<ul>
       <li class="navigation-item">
         <a class="navigation-link" href="Login">
           <span class="visually-hidden">
-            Вход</span>
+            Войти</span>
           </a>
 
       </li>
@@ -73,13 +70,15 @@
 
       </li>
     </ul>
-  </nav>
+
   </header>
   <main class="main-index">
-    <h1 class="visually-hidden">
+    <ul>
+      <li>
+    <h2 class="main-text">
       Порхает как бабочка жалит как пчела!
-    </h1>
-     <img class="logo" src="top-tovarov" alt="3 товара">
+    </h2>
+     <img class="logo" src="top-tovarov" alt="квадрокоптер">
      <section class="description">
       <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
      </p>
@@ -89,14 +88,71 @@
      <h4>50 м</h4>
      <p>Радиус поражения</p>
      </section>
-     <section class="catalog">
-      <img class="virtual-reality" src="#" alt="Виртуальная реальность">
-      <img class="monopods-for-selfies" src="#" alt="Моноподы для селфи">
+    </li>
+    <li>
+      <h2 class="visually-hidden">
+        Худеем правильно!
+      </h2>
+       <img class="logo" src="top-tovarov" alt="браслет">
+       <section class="description">
+        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+       </p>
+       <a class="button" href="#">подробнее</a>
+       <h4>48 часов </h4>
+       <p>без подзарядки</p>
+       </section>
+    </li>
+    <li>
+      <h2 class="visually-hidden">
+        Делай селфи, как Бен Стиллер!
+      </h2>
+       <img class="logo" src="top-tovarov" alt="браслет">
+       <section class="description">
+        <p>Самая длинная палка для селфи доступна в нашем магазине.
+          Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
+       </p>
+       <a class="button" href="#">подробнее</a>
+       <h4>8,5 м </h4>
+       <p>Длина палки</p>
+       <h4>5 кг</h4>
+       <p>Вес палки</p>
+       <h4>Карбон</h4>
+       <p>Материал</p>
+       </section>
+    </li>
+    </ul>
+     <ul>
+      <li>
+        <a href="#">
+        <img class="virtual-reality" src="#" alt="Виртуальная реальность">
+      </a>
+    </li>
+      <li>
+        <a href="#">
+        <img class="monopods-for-selfies" src="#" alt="Моноподы для селфи">
+      </a>
+    </li>
+      <li>
+        <a href="#">
       <img class="action-cameras" src="#" alt="Экшн-камеры">
+      </a>
+    </li>
+      <li>
+        <a href="#">
       <img class="fitness-bracelets" src="#" alt="Фитнес-браслеты">
-      <img class="smart-watches" src="#" alt="Умные часы">
-      <img class="quadrocopters" src="#" alt="Квадрокоптеры">
-     </section>
+      </a>
+    </li>
+      <li>
+        <a href="#">
+        <img class="smart-watches" src="#" alt="Умные часы">
+      </a>
+    </li>
+      <li>
+        <a href="#">
+        <img class="quadrocopters" src="#" alt="Квадрокоптеры">
+      </a>
+    </li>
+      </ul>
 
 
 <section class="information">
@@ -120,10 +176,35 @@
                 </li>
 
               </ul>
-
+              <ul>
+                <li>
               <h2 class="visually-hidden">
                 Доставка
               </h2>
+              <p> Мы с удовльствием доставим ваш товар прямо к вашему
+                подъезду совершенно бесплатно! Ведь мы неплохо
+                заработаем, поднимая его на ваш этаж
+              </p>
+            </li>
+            <li>
+              <h2 class="visually-hidden">
+                Гарантия
+              </h2>
+              <p> Если из-за возгорания купленного у нас товара у вас сгорит
+                дом- не переживайте, мы выдадим вам новый.
+                Товар, не дом, конечно же.
+              </p>
+            </li>
+
+             <li>
+              <h2 class="visually-hidden">
+                Кредит
+              </h2>
+              <p>Залезть в долговую яму стало проще! Кредитные консультанты
+                 подберут для вас наиболее выгодные условия кредита.
+                 Выгодные для банка, разумеется.
+             </li>
+            </ul>
               <img class="delivery" src="#" alt="Курьер">
               <a class="Deliveryfood">
               <img class="Delivery" src="#" alt="Грузовик">
@@ -133,7 +214,7 @@
                 </a>
 </section>
 <section class="about-us">
-  <h1 class="about-us-title"> О нас</h1>
+  <h2 class="about-us-title"> О нас</h2>
   <div class="about-description">
     <p>Огромный выбор гаджетов не оставит равнодушным гика,
     который есть в каждом из нас.</p>
@@ -155,7 +236,7 @@
 </section>
 
 <section class="contacts">
-  <h1 class="contacts-title"> Контакты</h1>
+  <h2 class="contacts-title"> Контакты</h2>
   <div class="contacts-description">
     <p>Вы можете забрать товар сами, заехав в наш офис.
       Заодно сможете проверить работоспособность покупки. </p>
@@ -175,11 +256,11 @@
 
 
     <footer class="page-footer">
-      <section class="footer-contacts">
-        <img class="footer-contacts-logo" src="" alt="Логотип Device.">
+        <img class="footer-contacts-logo" src="/" alt="Логотип Device.">
         <address class="footer-contacts-address">
-          <p class="about-text">Санкт-Петербург, набережная
-            реки Карповки, 5, литера П.</p>
+          Санкт-Петербург, набережная
+            реки Карповки, 5, литера П.
+        </address>
 
             <ul class="info-list">
               <li class="info-item">
@@ -191,14 +272,14 @@
                 <a class="button" href="#">
                   <span class="visually-hidden">Гарантия</span>
                 </a>
+              </li>
                 <li class="info-item">
                   <a class="button" href="#">
                     <span class="visually-hidden">Контакты</span>
                   </a>
-                  <ul>
-                  <a class="footer-contacts-address-phone" href="tel:Тел.: +78128121212">Тел.: +7 (812) 812-12-12</a>
-                  </ul>
-
+                  <a class="footer-contacts-address-phone" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
+                </li>
+                </ul>
               <ul class="footer-social-list">
                 <li class="footer-social-item">
                   <a class="button" href="#">
@@ -216,10 +297,6 @@
                   </a>
                 </li>
               </ul>
-            </section>
-  <body>
-
-
-
+            </footer>
   </body>
 </html>
