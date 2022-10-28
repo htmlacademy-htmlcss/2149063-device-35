@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
   <header class="page-header">
-<img src="images/catalog/header/logo-catalog-1.svg" width="145" height="36" alt="logo-device">
+<img src="images/logo-1.svg" width="145" height="36" alt="logo-device">
   <form action="https://echo.htmlacademy.ru/">
     <input type="search" value="Текст поиска"/>
     <input type="submit" value="Найти"/>
@@ -41,24 +42,24 @@
     <ul class="navigation-list">
       <li class="navigation-item">
         <a class="navigation-link" href="catalog.html">
-            Каталог товаров
+          <span class="services"> КАТАЛОГ ТОВАРОВ </span>
       </a>
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">
-            Доставка
+            <span class="services"> ДОСТАВКА </span>
           </a>
 
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">
-            Гарантия
+          <span class="services">ГАРАНТИЯ</span>
           </a>
 
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">
-        Контакты
+          <span class="services">КОНТАКТЫ</span>
       </a>
       </li>
     </ul>
@@ -79,7 +80,7 @@
         </header>
 
       <section class="catalog-products">
-        <h2>Список товаров с фильтрами</h2>
+        <h2 class="filters">Фильтры:</h2>
 
 <form>
       <fieldset class="catalog-filter-group">
@@ -116,9 +117,9 @@
         Нет
       </label>
     </fieldset>
-      <button class="button" type="submit">Показать</button>
+      <button class="button-show" type="submit">Показать</button>
     </form>
-    <h3>СОРТИРОВКА:</h3>
+    <h3 class="sorting">СОРТИРОВКА:</h3>
     <select class="select-control" aria-label="Сортировка">
       <option value="popular">Популярные</option>
       <option value="cheap"> Сначала дешевые</option>
@@ -158,7 +159,7 @@
   </li>
 
   </ul>
-    <button class="button pagination-show-more" type="button">Загрузить еще</button>
+    <button class="button-pagination-show-more" type="button">Загрузить еще</button>
 
     <ul class="pagination">
       <li class="pagination-item">
@@ -188,42 +189,44 @@
     </section>
   </main>
   <footer class="page-footer">
-      <img class="footer-contacts-logo" src="images/catalog/footer/logo-catalog-2.svg" width="146" height="36" alt="Логотип Device.">
+      <img class="footer-contacts-logo" src="images/logo-2.svg" width="146" height="36" alt="Логотип Device.">
       <address class="footer-contacts-address">
         >Санкт-Петербург, набережная
           реки Карповки, 5, литера П.
           </address>
           <ul class="info-list">
             <li class="info-item">
-              <a class="button" href="#">Доставка
+              <a class="footer-link" href="#"> <p class="services"> Доставка</p>
               </a>
             </li>
             <li class="info-item">
-              <a class="button" href="#">Гарантия
+              <a class="footer-link" href="#">
+                <p class="services">Гарантия</p>
               </a>
               <li class="info-item">
-                <a class="button" href="#">Контакты
+                <a class="footer-link" href="#">
+                  <p class="services">Контакты</p>
                 </a>
                 <a class="footer-contacts-address-phone" href="#">Тел.: +7 (812) 812-12-12</a>
               </ul>
                 <ul class="footer-social-list">
               <li class="footer-social-item">
                 <a class="button" href="https://t.me/htmlacademy">
-                  <img src="images/catalog/footer/telegramm-catalog.svg" width="40" height="40" alt="telegramm">
+                  <img src="images/telegramm-main.svg" width="40" height="40" alt="telegramm">
                 </a>
               </li>
               <li class="footer-social-item">
                 <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-                  <img src="images/catalog/footer/youtube-catalog.svg" width="40" height="40" alt="youtube-icon">
+                  <img src="images/youtube-main.svg" width="40" height="40" alt="youtube-icon">
                 </a>
               </li>
               <li class="footer-social-item">
                 <a class="button" href="https://twitter.com/htmlacademy_ru">
-                 <img src="images/catalog/footer/twitter-catalog.svg" width="40" height="40" alt="twitter-icon">
+                 <img src="images/twitter-main.svg" width="40" height="40" alt="twitter-icon">
                 </a>
               </li>
             </ul>
-            <img src="images/catalog/footer/htmlacademy-catalog-logo.svg" width="115" height="33" alt="logo-htmlacademy">
+            <img src="images/htmlacademy-logo.svg" width="115" height="33" alt="logo-htmlacademy">
   </footer>
 
 
