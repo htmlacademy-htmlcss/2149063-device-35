@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
@@ -42,31 +43,31 @@
     <ul class="navigation-list">
       <li class="navigation-item">
         <a class="navigation-link" href="catalog.html">
-          <span class="services"> КАТАЛОГ ТОВАРОВ </span>
+          <span class="services"> Каталог товаров </span>
       </a>
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">
-            <span class="services"> ДОСТАВКА </span>
+            <span class="services"> Доставка </span>
           </a>
 
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">
-          <span class="services">ГАРАНТИЯ</span>
+          <span class="services">Гарантия</span>
           </a>
 
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">
-          <span class="services">КОНТАКТЫ</span>
+          <span class="services">Контакты</span>
       </a>
       </li>
     </ul>
   </header>
-      <main>
+      <main class="catalog-main">
       <header class="inner-header">
-        <h2 class="inner-header-title">Моноподы для селфи</h2>
+        <h2 class="title">Моноподы для селфи</h2>
             <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link" href="index.html">Главная</a>
@@ -79,8 +80,8 @@
         </ul>
         </header>
 
-      <section class="catalog-products">
-        <h2 class="filters">Фильтры:</h2>
+      <section class="catalog-filter-list">
+        <h2 class="pagination">Фильтр:</h2>
 
 <form>
       <fieldset class="catalog-filter-group">
@@ -119,12 +120,14 @@
     </fieldset>
       <button class="button-show" type="submit">Показать</button>
     </form>
-    <h3 class="sorting">СОРТИРОВКА:</h3>
+    <h3 class="pagination">Сортировка:</h3>
     <select class="select-control" aria-label="Сортировка">
-      <option value="popular">Популярные</option>
-      <option value="cheap"> Сначала дешевые</option>
-      <option value="expensive"> Сначала дорогие</option>
+      <option value="dropdown">Популярные</option>
+      <option value="dropdown"> Сначала дешевые</option>
+      <option value="dropdown"> Сначала дорогие</option>
     </select>
+    </section>
+      <section class="catalog-products">
 <ul>
   <li>
       <a class="product-card-link" href="#">
@@ -159,15 +162,15 @@
   </li>
 
   </ul>
-    <button class="button-pagination-show-more" type="button">Загрузить еще</button>
+    <button class="pagination" type="button">Загрузить еще</button>
 
     <ul class="pagination">
       <li class="pagination-item">
-        <a class="pagination-link pagination-prev pagination-disabled" href="#">Назад
+        <a class="pagination-button" href="#">Назад
         </a>
       </li>
       <li class="pagination-item">
-        <a class="pagination-link pagination-current" href="#">1</a>
+        <a class="pagination-link" href="#">1</a>
       </li>
       <li class="pagination-item">
         <a class="pagination-link" href="#">2</a>
@@ -182,32 +185,32 @@
         <a class="pagination-link" href="#">35</a>
       </li>
       <li class="pagination-item">
-        <a class="pagination-link pagination-next" href="#">Вперед
+        <a class="pagination-button" href="#">Вперед
         </a>
       </li>
     </ul>
     </section>
   </main>
-  <footer class="page-footer">
+  <footer class="page-footer-catalog">
       <img class="footer-contacts-logo" src="images/logo-2.svg" width="146" height="36" alt="Логотип Device.">
-      <address class="footer-contacts-address">
+      <address class="footer-contacts-address footer-text">
         >Санкт-Петербург, набережная
           реки Карповки, 5, литера П.
           </address>
           <ul class="info-list">
             <li class="info-item">
-              <a class="footer-link" href="#"> <p class="services"> Доставка</p>
+              <a class="footer-link" href="#"> <p class="services footer-text"> Доставка</p>
               </a>
             </li>
             <li class="info-item">
               <a class="footer-link" href="#">
-                <p class="services">Гарантия</p>
+                <p class="services footer-text">Гарантия</p>
               </a>
               <li class="info-item">
                 <a class="footer-link" href="#">
-                  <p class="services">Контакты</p>
+                  <p class="services footer-text">Контакты</p>
                 </a>
-                <a class="footer-contacts-address-phone" href="#">Тел.: +7 (812) 812-12-12</a>
+                <a class="contacts-phone footer-text" href="#">Тел.: +7 (812) 812-12-12</a>
               </ul>
                 <ul class="footer-social-list">
               <li class="footer-social-item">

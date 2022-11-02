@@ -22,127 +22,162 @@
   src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
 }
 
+.page-header {
+  background: linear-gradient(to bottom, transparent 0 40px, #FFE17F 40px 100%);
+}
+.main-header {
+  background: linear-gradient(to bottom, #FFE17F 0 148px, transparent 148px 100% );
+}
+
+.products-image {
+background-color: #FFE17F;
+}
+.information {
+  background: linear-gradient(to bottom, transparent 0 102px, #F0F0F0 102px 289px, transparent 289px 359px);
+}
+.delivery {
+  background: linear-gradient(to bottom, #F0F0F0 0 100px);
+}
+.subscribe-newsletter {
+  background-color: #F0F0F0;
+}
+.page-footer-main, .page-footer-catalog {
+  background-color: #444444;
+}
+.catalog-filter-list{
+  background-color: #F0F0F0;
+}
+.pagination {
+  background-color: #F0F0F0;
+}
+
 body {
   font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
+  font-weight: 400;
   background-color: #ffffff;
   color: #000000;
 }
 
 .navigation-link, .breadcrumbs-link  {
-  color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
   text-align: center;
+  color: #000000;
+}
+.navigation-list {
+  margin: 0%;
 }
 .product-card-link, .footer-link {
-  color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
+  color: #000000;
 }
 
-.main-text, .services-more, .about-us-title, .contacts-title,
- .title-subscribe-newsletter, .inner-header-title {
+.title {
   font-family: "raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
-  background-color: #ffffff;
+  font-weight: 800;
 }
 
 .services, .subscribe {
   font-family: "raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color: #ffffff;
-}
-
-.about-us, .button-feedback {
-  font-family: "raleway", sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .more-detailed {
   font-family: "raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color: #ffffff;
-  color: #000000;
+  font-weight: 800;
   text-decoration: none;
   text-align: center;
+  color: #000000;
 }
 
 .characteristic {
-  font-family: "rubik", sans-serif;
   font-size: 36px;
   line-height: 30px;
-  background-color: #ffffff;
 }
 
 .products{
   font-family: "raleway", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  background-color: #ffffff;
+  font-weight: 800;
 }
 
 .information-delivery {
   font-family: "raleway", sans-serif;
   font-size: 20px;
   line-height: 23px;
-  background-color: #ffffff;
+  font-weight: 800;
 }
 
 .title-internet-magazine, .contacts-subtitle {
-  font-family: "rubik", sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
-  background-color: #ffffff;
 }
 
 .about-us-item {
-  font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
-  background-color: #ffffff;
 }
 
-.footer-contacts-address-phone, .catalog-filter-title, .product-card-title {
-  font-family: "rubik", sans-serif;
+.contacts-phone, .catalog-filter-title, .product-card-title {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  background-color: #ffffff;
   color: #000000;
 }
 
-.filters, .sorting, .button-pagination-show-more {
+.pagination {
   font-family: "raleway", sans-serif;
   font-size: 16px;
   line-height: 19px;
-  background-color: #ffffff;
+  font-weight: 800;
+  color: #000000;
 }
 
 .button-show {
   font-family: "raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color: #ffffff;
-  color: #000000;
+  font-weight: 800;
   text-decoration: none;
   text-align: center;
 }
 .product-card-price {
-  font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  background-color: #ffffff;
+}
+
+.pagination-link, .footer-contacts-address {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.pagination-button {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000000;
+}
+.adress-contacts-phone {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.footer-text {
+color: #FFFFFF;
 }

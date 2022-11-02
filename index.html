@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Device</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
@@ -12,7 +13,7 @@
       <input type="search" value="Текст поиска"/>
       <input type="submit" value="Найти"/>
     </form>
-<ul>
+<ul class="navigation-list">
       <li class="navigation-item">
         <img src="images/main-stage/header/entrance.svg" width="13" height="12" alt="Иконка входа">
         <a class="navigation-link" href="#">
@@ -39,9 +40,9 @@
     </ul>
     <ul class="navigation-list">
       <li class="navigation-item">
-        <a class="navigation-link" href="#">
+        <a class="navigation-link" href="catalog.html">
           <span class="services">
-            КАТАЛОГ ТОВАРОВ
+            Каталог товаров
             </span>
       </a>
 
@@ -49,7 +50,7 @@
       <li class="navigation-item">
         <a class="navigation-link" href="#">
           <span class="services">
-            ДОСТАВКА
+            Доставка
             </span>
           </a>
 
@@ -57,7 +58,7 @@
       <li class="navigation-item">
         <a class="navigation-link" href="#">
           <span class="services">
-            ГАРАНТИЯ
+            Гарантия
             </span>
           </a>
 
@@ -65,7 +66,7 @@
       <li class="navigation-item">
         <a class="navigation-link" href="#">
           <span class="services">
-        КОНТАКТЫ
+        Контакты
       </span>
       </a>
 
@@ -74,11 +75,11 @@
 
   </header>
   <main class="main-index">
-    <section>
+    <section class="main-header">
       <img src="images/main-stage/header/product.png" width="560" height="560" alt="Квадрокоптер">
     <ul>
       <li>
-    <h2 class="main-text">
+    <h2 class="title">
       Порхает как бабочка жалит как пчела!
     </h2>
     </li>
@@ -94,7 +95,7 @@
      </div>
      <ul>
     <li>
-      <h2 class="main-text">
+      <h2 class="title">
         Худеем правильно!
       </h2>
        <img src="images/main-stage/main/fitness-bracelets-main.png" width="560" height="560" alt="Фитнес-браслет">
@@ -110,7 +111,7 @@
 
 <ul>
   <li>
-      <h2 class="main-text">
+      <h2 class="title">
         Делай селфи, как Бен Стиллер!
       </h2>
        <img src="images/main-stage/main/selfie-stick.png" width="560" height="560" alt="Селфи-палка">
@@ -129,44 +130,47 @@
        <p>Материал</p>
       </div>
        </section>
-     <ul>
-      <li>
+
+     <section class="table-of-products">
+     <ul class="products-icon-list">
+      <li class="products-icon-list-item">
         <a class="list-of-products" href="#">
-        <img class="virtual-reality" src="images/main-stage/main/virtual-reality.svg" width="97" height="55" alt="Виртуальная реальность">
+        <img class="products-image" src="images/main-stage/main/virtual-reality.svg" width="97" height="55" alt="Виртуальная реальность">
       </a>
       <h3 class="products">Виртуальная реальность</h3>
     </li>
-      <li>
+    <li class="products-icon-list-item">
         <a class="list-of-products" href="#">
-        <img class="monopods-for-selfies" src="images/main-stage/main/selfie-stick.svg" width="86" height="117" alt="Селфи-палка">
+        <img class="products-image" src="images/main-stage/main/selfie-stick.svg" width="86" height="117" alt="Селфи-палка">
       </a>
       <h3 class="products">Моноподы для селфи</h3>
     </li>
-      <li>
+    <li class="products-icon-list-item">
         <a class="list-of-products" href="#">
-      <img class="action-cameras" src="images/main-stage/main/action-camera.svg" width="71" height="87" alt="Экшн-камеры">
+      <img class="products-image" src="images/main-stage/main/action-camera.svg" width="71" height="87" alt="Экшн-камеры">
       </a>
       <h3 class="products">Экшн камеры</h3>
     </li>
-      <li>
+    <li class="products-icon-list-item">
         <a class="list-of-products" href="#">
-      <img class="fitness-bracelets" src="images/main-stage/main/fitness-bracelets.svg" width="107" height="65" alt="Фитнес-браслеты">
+      <img class="products-image" src="images/main-stage/main/fitness-bracelets.svg" width="107" height="65" alt="Фитнес-браслеты">
       </a>
       <h3 class="products">Фитнес браслеты</h3>
     </li>
-      <li>
+    <li class="products-icon-list-item">
         <a class="list-of-products" href="#">
-        <img class="smart-watches" src="images/main-stage/main/smart-watches.svg" width="57" height="98" alt="Умные часы">
+        <img class="products-image" src="images/main-stage/main/smart-watches.svg" width="57" height="98" alt="Умные часы">
       </a>
       <h3 class="products">Умные часы</h3>
     </li>
-      <li>
+    <li class="products-icon-list-item">
         <a class="list-of-products" href="#">
-        <img class="quadrocopters" src="images/main-stage/main/quadrocopters.svg" width="132" height="69" alt="Квадрокоптеры">
+        <img class="products-image" src="images/main-stage/main/quadrocopters.svg" width="132" height="69" alt="Квадрокоптеры">
       </a>
       <h3 class="products">Квадрокоптеры</h3>
     </li>
       </ul>
+      </section>
 
 
 <section class="information">
@@ -174,25 +178,25 @@
       <li class="information-item">
         <a class="navigation-link" href="#">
           <span class="services">
-            ДОСТАВКА</span>
+            Доставка</span>
           </a>
           <li class="information-item">
         <a class="navigation-link" href="#">
           <span class="services">
-            ГАРАНТИЯ</span>
+            Гарантия</span>
             </a>
             <li class="information-item">
 
               <a class="navigation-link" href="#">
                 <span class="services">
-                  КРЕДИТ</span>
+                  Кредит</span>
                 </a>
                 </li>
 
               </ul>
               <ul>
                 <li>
-              <h2 class="services-more">
+              <h2 class="title title-active">
                 Доставка
               </h2>
               <p> Мы с удовльствием доставим ваш товар прямо к вашему
@@ -202,7 +206,7 @@
               <img src="images/main-stage/main/delivery-by-courier.svg" width="136" height="164"  alt="доставка курьер">
             </li>
             <li>
-              <h2 class="services-more">
+              <h2 class="title">
                 Гарантия
               </h2>
               <p> Если из-за возгорания купленного у нас товара у вас сгорит
@@ -213,7 +217,7 @@
             </li>
 
              <li>
-              <h2 class="services-more">
+              <h2 class="title">
                 Кредит
               </h2>
               <p>Залезть в долговую яму стало проще! Кредитные консультанты
@@ -222,16 +226,16 @@
              </li>
               </ul>
              <img src="images/main-stage/main/delivery-credit.svg" width="156" height="188" alt="картинка кредит">
-
-<div>
-              <img class="Delivery" src="images/main-stage/main/delivery-machine.svg" width="47" height="31"  alt="Грузовик">
+             <div class="delivery">
+              <img class="Delivery-machine" src="images/main-stage/main/delivery-machine.svg" width="47" height="31"  alt="Грузовик">
               <p class="information-delivery">
                 Доставим редкий товар под заказ
               </p>
               </div>
 </section>
+
 <section>
-  <h2 class="about-us-title"> О нас</h2>
+  <h2 class="title"> О нас</h2>
   <div class="about-description">
     <p>Огромный выбор гаджетов не оставит равнодушным гика,
     который есть в каждом из нас.</p>
@@ -249,11 +253,11 @@
     </li>
     </ul>
     </div>
-    <a class="about-us" href="#">Подробнее о нас</a>
+    <a class="more-detailed" href="#">Подробнее о нас</a>
 </section>
 
 <section class="contacts">
-  <h2 class="contacts-title"> Контакты</h2>
+  <h2 class="title"> Контакты</h2>
   <div class="contacts-description">
     <p>Вы можете забрать товар сами, заехав в наш офис.
       Заодно сможете проверить работоспособность покупки. </p>
@@ -266,10 +270,10 @@
         <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
         <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
       </ul>
-      <a class="button-feedback" href="#">Напишите нам</a>
+      <a class="more-detailed" href="#">Напишите нам</a>
 </section>
 <div class="subscribe-newsletter">
-  <h2 class="title-subscribe-newsletter"> Подпишитесь на рассылку</h2>
+  <h2 class="title"> Подпишитесь на рассылку</h2>
   <p> Еженедельный дайджест с обзорами новинок,
     длительными тест-драйвами, распаковками,
     а также акции, спецпредложения и вот это вот всё.</p>
@@ -288,9 +292,9 @@
 
 
 
-    <footer class="page-footer">
+    <footer class="page-footer-main">
         <img class="footer-contacts-logo" src="images/logo-2.svg" width="145" height="36" alt="Логотип Device.">
-        <address class="footer-contacts-address">
+        <address class="footer-contacts-address footer-text">
           Санкт-Петербург, набережная
             реки Карповки, 5, литера П.
         </address>
@@ -298,19 +302,19 @@
             <ul class="info-list">
               <li class="info-item">
                 <a class="navigation-link" href="#">
-                  <span class="services">ДОСТАВКА</span>
+                  <span class="services footer-text">Доставка</span>
                 </a>
               </li>
               <li class="info-item">
                 <a class="navigation-link" href="#">
-                  <span class="services">ГАРАНТИЯ</span>
+                  <span class="services footer-text">Гарантия</span>
                 </a>
               </li>
                 <li class="info-item">
                   <a class="navigation-link" href="#">
-                    <span class="services">КОНТАКТЫ</span>
+                    <span class="services footer-text">Контакты</span>
                   </a>
-                  <a class="footer-contacts-address-phone" href="#">Тел.: +7 (812) 812-12-12</a>
+                  <a class="adress-contacts-phone footer-text" href="#">Тел.: +7 (812) 812-12-12</a>
                 </li>
                 </ul>
                 <ul class="footer-social-list">
