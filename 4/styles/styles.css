@@ -22,6 +22,17 @@
   src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
 }
 
+
+
+body {
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .page-header {
   background: linear-gradient(to bottom, transparent 0 40px, #FFE17F 40px 100%);
 }
@@ -33,15 +44,15 @@
 background-color: #FFE17F;
 }
 .information {
-  background: linear-gradient(to bottom, transparent 0 102px, #F0F0F0 102px 289px, transparent 289px 359px);
+  background: linear-gradient(to bottom, transparent 0 102px, #F0F0F0 102px 100%);
 }
 .delivery {
-  background: linear-gradient(to bottom, #F0F0F0 0 100px);
+background-color: #F0F0F0;
 }
 .subscribe-newsletter {
   background-color: #F0F0F0;
 }
-.page-footer-main, .page-footer-catalog {
+.page-footer {
   background-color: #444444;
 }
 .catalog-filter-list{
@@ -50,22 +61,12 @@ background-color: #FFE17F;
 .pagination {
   background-color: #F0F0F0;
 }
-
-body {
-  font-family: "rubik", sans-serif;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  background-color: #ffffff;
-  color: #000000;
-}
-
 .navigation-link, .breadcrumbs-link  {
   text-decoration: none;
   text-align: center;
   color: #000000;
 }
-.navigation-list {
+.navigation-list, .main-header-list, .button-information-list {
   margin: 0%;
 }
 .product-card-link, .footer-link {
@@ -110,7 +111,7 @@ body {
   font-weight: 800;
 }
 
-.information-delivery {
+.delivery-text {
   font-family: "raleway", sans-serif;
   font-size: 20px;
   line-height: 23px;
@@ -129,7 +130,7 @@ body {
   font-weight: 700;
 }
 
-.contacts-phone, .catalog-filter-title, .product-card-title {
+.catalog-filter-title, .product-card-title {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -174,10 +175,18 @@ body {
   color: #000000;
 }
 .adress-contacts-phone {
+  font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
+  font-weight: 400;
   color: #000000;
 }
 .footer-text {
 color: #FFFFFF;
+}
+.contacts-phone {
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
 }

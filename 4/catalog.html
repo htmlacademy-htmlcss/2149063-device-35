@@ -123,9 +123,9 @@
     </form>
     <h3 class="pagination">Сортировка:</h3>
     <select class="select-control" aria-label="Сортировка">
-      <option value="dropdown">Популярные</option>
-      <option value="dropdown"> Сначала дешевые</option>
-      <option value="dropdown"> Сначала дорогие</option>
+      <option class="dropdown" value="popular">Популярные</option>
+      <option class="dropdown" value="cheap"> Сначала дешевые</option>
+      <option class="dropdown" value="expensive"> Сначала дорогие</option>
     </select>
     </section>
       <section class="catalog-products">
@@ -171,7 +171,7 @@
         </a>
       </li>
       <li class="pagination-item">
-        <a class="pagination-link" href="#">1</a>
+        <a class="pagination-link pagination-current" href="#">1</a>
       </li>
       <li class="pagination-item">
         <a class="pagination-link" href="#">2</a>
@@ -192,7 +192,7 @@
     </ul>
     </section>
   </main>
-  <footer class="page-footer-catalog">
+  <footer class="page-footer">
       <img class="footer-contacts-logo" src="images/logo-2.svg" width="146" height="36" alt="Логотип Device.">
       <address class="footer-contacts-address footer-text">
         >Санкт-Петербург, набережная
